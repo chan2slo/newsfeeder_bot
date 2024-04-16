@@ -5,7 +5,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text('안녕하세요! 에코 봇입니당!!!!!! 예압예압베비!!!!22222')
 
 async def test(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text('')
+    await update.message.reply_text('kddkdkdkdkdkdkdkdk')
 
 async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(update.message.text)
